@@ -1,0 +1,3 @@
+/home/keti/CMakeList_lecture/lecture_2/case2_Library/src/TestSome/cpp/build/CMakeFiles/rebuild_cache.dir
+/home/keti/CMakeList_lecture/lecture_2/case2_Library/src/TestSome/cpp/build/CMakeFiles/edit_cache.dir
+/home/keti/CMakeList_lecture/lecture_2/case2_Library/src/TestSome/cpp/build/CMakeFiles/testsome.dir

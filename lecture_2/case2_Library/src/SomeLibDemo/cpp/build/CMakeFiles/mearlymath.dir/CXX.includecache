@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/keti/CMakeList_lecture/lecture_2/case2_Library/cpp/adder.cpp
+adder.h
+/home/keti/CMakeList_lecture/lecture_2/case2_Library/cpp/adder.h
+
+/home/keti/CMakeList_lecture/lecture_2/case2_Library/cpp/adder.h
+
