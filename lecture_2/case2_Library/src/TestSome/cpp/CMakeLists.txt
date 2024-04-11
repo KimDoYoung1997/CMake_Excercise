@@ -9,7 +9,7 @@ add_executable(testsome main.cpp)
 # 그런데, 사실 /../../SomeLibDemo/cpp/build 와 같이 상대 경로를 직접 입력해주기는 꽤나 까다로운 일이다.
 # 이제 아래의 복잡한 상대경로를 적을 필요가 없다. 왜냐면 /home/keti/CMakeList_lecture/lecture_2/case2_Library/src/SomeLibDemo/cpp/CMakeLists.txt의 11, 18번째 줄에서 
 # 내 라이브러리를 전역에 공유 했기 때문이다. 
-# target_link_directories(testsome PRIVATE ${CMAKE_SOURCE_DIR}/../../SomeLibDemo/cpp/build)
+# target_link_directories(testsome PRIVATE ${CMAKE_SOURCE_DIR}/../../SomeLibDemo/cpp/build) # 이젠 이걸 할 필요가 없어진거다.
 
 
 
