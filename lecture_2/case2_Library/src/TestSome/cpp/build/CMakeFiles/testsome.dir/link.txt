@@ -1,1 +1,1 @@
-/usr/bin/c++     CMakeFiles/testsome.dir/main.cpp.o  -o testsome   -L/home/keti/CMakeList_lecture/lecture_2/case2_Library/src/TestSome/cpp/../../SomeLibDemo/cpp/build  -Wl,-rpath,/home/keti/CMakeList_lecture/lecture_2/case2_Library/src/TestSome/cpp/../../SomeLibDemo/cpp/build -lmearlymath 
+/usr/bin/c++     CMakeFiles/testsome.dir/main.cpp.o  -o testsome  -lmearlymath 

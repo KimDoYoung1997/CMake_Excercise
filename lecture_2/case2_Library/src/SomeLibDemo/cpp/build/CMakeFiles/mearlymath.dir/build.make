@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/keti/CMakeList_lecture/lecture_2/case2_Library/cpp
+CMAKE_SOURCE_DIR = /home/keti/CMakeList_lecture/lecture_2/case2_Library/src/SomeLibDemo/cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/keti/CMakeList_lecture/lecture_2/case2_Library/cpp/build
+CMAKE_BINARY_DIR = /home/keti/CMakeList_lecture/lecture_2/case2_Library/src/SomeLibDemo/cpp/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/mearlymath.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/mearlymath.dir/flags.make
 
 CMakeFiles/mearlymath.dir/adder.cpp.o: CMakeFiles/mearlymath.dir/flags.make
 CMakeFiles/mearlymath.dir/adder.cpp.o: ../adder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/keti/CMakeList_lecture/lecture_2/case2_Library/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/mearlymath.dir/adder.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mearlymath.dir/adder.cpp.o -c /home/keti/CMakeList_lecture/lecture_2/case2_Library/cpp/adder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/keti/CMakeList_lecture/lecture_2/case2_Library/src/SomeLibDemo/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/mearlymath.dir/adder.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mearlymath.dir/adder.cpp.o -c /home/keti/CMakeList_lecture/lecture_2/case2_Library/src/SomeLibDemo/cpp/adder.cpp
 
 CMakeFiles/mearlymath.dir/adder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mearlymath.dir/adder.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/keti/CMakeList_lecture/lecture_2/case2_Library/cpp/adder.cpp > CMakeFiles/mearlymath.dir/adder.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/keti/CMakeList_lecture/lecture_2/case2_Library/src/SomeLibDemo/cpp/adder.cpp > CMakeFiles/mearlymath.dir/adder.cpp.i
 
 CMakeFiles/mearlymath.dir/adder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mearlymath.dir/adder.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/keti/CMakeList_lecture/lecture_2/case2_Library/cpp/adder.cpp -o CMakeFiles/mearlymath.dir/adder.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/keti/CMakeList_lecture/lecture_2/case2_Library/src/SomeLibDemo/cpp/adder.cpp -o CMakeFiles/mearlymath.dir/adder.cpp.s
 
 # Object files for target mearlymath
 mearlymath_OBJECTS = \
@@ -80,7 +80,7 @@ mearlymath_EXTERNAL_OBJECTS =
 libmearlymath.a: CMakeFiles/mearlymath.dir/adder.cpp.o
 libmearlymath.a: CMakeFiles/mearlymath.dir/build.make
 libmearlymath.a: CMakeFiles/mearlymath.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/keti/CMakeList_lecture/lecture_2/case2_Library/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libmearlymath.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/keti/CMakeList_lecture/lecture_2/case2_Library/src/SomeLibDemo/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libmearlymath.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/mearlymath.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mearlymath.dir/link.txt --verbose=$(VERBOSE)
 
@@ -94,6 +94,6 @@ CMakeFiles/mearlymath.dir/clean:
 .PHONY : CMakeFiles/mearlymath.dir/clean
 
 CMakeFiles/mearlymath.dir/depend:
-	cd /home/keti/CMakeList_lecture/lecture_2/case2_Library/cpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/keti/CMakeList_lecture/lecture_2/case2_Library/cpp /home/keti/CMakeList_lecture/lecture_2/case2_Library/cpp /home/keti/CMakeList_lecture/lecture_2/case2_Library/cpp/build /home/keti/CMakeList_lecture/lecture_2/case2_Library/cpp/build /home/keti/CMakeList_lecture/lecture_2/case2_Library/cpp/build/CMakeFiles/mearlymath.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/keti/CMakeList_lecture/lecture_2/case2_Library/src/SomeLibDemo/cpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/keti/CMakeList_lecture/lecture_2/case2_Library/src/SomeLibDemo/cpp /home/keti/CMakeList_lecture/lecture_2/case2_Library/src/SomeLibDemo/cpp /home/keti/CMakeList_lecture/lecture_2/case2_Library/src/SomeLibDemo/cpp/build /home/keti/CMakeList_lecture/lecture_2/case2_Library/src/SomeLibDemo/cpp/build /home/keti/CMakeList_lecture/lecture_2/case2_Library/src/SomeLibDemo/cpp/build/CMakeFiles/mearlymath.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/mearlymath.dir/depend
 
